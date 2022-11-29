@@ -26,7 +26,7 @@ device_config = net_connect.send_command("show run")
 # Disconnect from Device
 net_connect.disconnect()
 
-# ------ Clone git repo in temporary directory, replace files with new config file and push changes back to git repo  ------
+# ------ Clone git repo in temporary directory, replace files with new config file and push changes back to git repo
 
 # Create temporary directory
 temporary_folder = "C:/Users/Linoy/AppData/Local/Temp/backups_GIT"
